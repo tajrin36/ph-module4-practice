@@ -10,3 +10,12 @@ th{
     border: 2px solid black;
     padding: 5px 10px;
 }
+tr:nth-child(even){
+    background-color: aqua;
+}
+tr:nth-child(odd){
+    background-color: pink;
+}
+th{
+    background-color: aqua;
+}
