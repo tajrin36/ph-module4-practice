@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html table</title>
     <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <h1>HTML Table</h1>
+    <!-- <header>
+        <nav>
+            <ul>
+                <li><a href="form.html">form</a></li>
+                <li><a href="blogs.html">blog</a></li>
+                <li><a href="table.html">table</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <!-- nested dropdown menu -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="form.html">form</a>
+                    <ul class="dropdown">
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="blogs.html">blog</a></li>
+                        <li><a href="table.html">table</a></li>
+                    </ul>
+                </li>
+                <li><a href="blogs.html">blog</a></li>
+                <li><a href="table.html">table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>HTML Table</h1>
     <table>
         <caption>Employee Salary Table</caption>
         <thead>
@@ -50,5 +80,6 @@
            </tr>
         </tfoot>
     </table>
+    </main>
 </body>
 </html>
