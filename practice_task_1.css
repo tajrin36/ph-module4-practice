@@ -1,0 +1,19 @@
+.image{
+    width: 45%;
+    height: 300px;
+    
+    margin-top: 10px;
+}
+.container {
+    border: 2px solid black;
+    text-align: left;
+    width: 800px;
+    align-items: center;
+    padding: 5px;
+    
+}
+label{
+    display: block;
+    margin-top: 1px;
+
+}
